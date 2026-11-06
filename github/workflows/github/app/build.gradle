@@ -1,0 +1,14 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.example.haxballtv'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.example.haxballtv'
+        minSdk 23
+        targetSdk 35
+    }
+}
